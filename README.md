@@ -80,4 +80,11 @@ python video.py
 ├── contiue.py         # 继续训练
 ├── video.py           # 视频推理
 └── yolov8n.pt         # 预训练模型
+|——result.csv          # 训练结果
 ```
+## 项目特点
+
+- 使用 YOLOv8n 进行轻量级行人检测
+- 基于 CrowdHuman 提升密集人群鲁棒性
+- 加入视频时序稳定策略减少框闪烁
+- 支持中断恢复训练
